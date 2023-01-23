@@ -1,0 +1,20 @@
+{
+	"name": "DJSTutorial",
+	"description": "DiscordJS Tutorial BOT.",
+	"version": "0.0.1",
+	"main": "src/main.js",
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon .",
+		"commands:deploy": "node helpers/commands/deploy.js"
+	},
+	"dependencies": {
+		"discord.js": "^14.7.1",
+		"dotenv": "^16.0.3",
+		"gw2api-client": "^7.5.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.32.0",
+		"nodemon": "^2.0.20"
+	}
+}
